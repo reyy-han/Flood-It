@@ -19,7 +19,7 @@ Dans ce projet, le but est de développer plusieurs stratégies d'inondation afi
 
 - **1** - ***Inondation aléatoire*** : Le choix de la couleur à inonder est déterminé de manière aléatoire entre toutes les couleurs présentes dans la grille à l'initialisation de celle-ci.
 - **3** - ***Inondation aléatoire adaptée*** : Comme pour la stratégie 1, on choisit aléatoirement la prochaine couleur, mais cette fois ci entre les couleurs toujours présentes sur la grille à l'instant t.
-- 
+
 On utilise une nouvelle structure **S_Zsg**.
 
 ```c
