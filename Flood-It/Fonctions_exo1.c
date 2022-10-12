@@ -39,9 +39,10 @@ int sequence_aleatoire_rec(int **M, Grille *G, int dim, int nbcl, int aff){
 	}
 	else{
 		while(color==c1){
-			color=(int)(rand()%nbcl);
+			color=(int)(rand()%nbcl); // on choisit aleatoirement une couleur differente de celle à la case (0,0)
 		}
 		while(*L){
+			// on colorie la zone deja inondee par la nouvelle couleur piochee precedement
 			M[(*L)->i][(*L)->j]=color;
 			(*L)=(*L)->suiv;
 		}
@@ -54,9 +55,8 @@ int sequence_aleatoire_rec(int **M, Grille *G, int dim, int nbcl, int aff){
 	     			}
 			}
 			Grille_redessine_Grille();
-			sleep(1);
 		}
-		
+		sleep(1);
 		(taille)=0;
 		detruit_liste(L);
 		return 1+sequence_aleatoire_rec(M,G,dim,nbcl,aff);

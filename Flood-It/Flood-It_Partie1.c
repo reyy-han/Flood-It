@@ -29,7 +29,7 @@ int main(int argc,char**argv){
 
 
   if(argc!=7){
-    printf("usage: %s <dimension> <nb_de_couleurs> <niveau_difficulte> <graine> <exo:0-1-3-4-5-6-7-13> <aff 0/1>\n",argv[0]);
+    printf("usage: %s <dimension> <nb_de_couleurs> <niveau_difficulte> <graine> <exo:0-1-2> <aff 0/1>\n",argv[0]);
     return 1;
   }
 
