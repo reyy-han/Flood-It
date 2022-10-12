@@ -34,4 +34,3 @@ On ne se contente pas d’une seule bordure comme dans max_bordure de l’exerci
        
 ![Capture_flood](https://user-images.githubusercontent.com/79942403/195354936-5b254ff9-1551-4846-887d-7b073ad26973.JPG)
 
-L’inondation peut également être faite avec différentes stratégies comme le fait de choisir le voisin ayant le plus de cases à inonder ou encore choisir d’inonder la diagonale (en haut à gauche – en bas à droite) puis d’inonder en premier les voisins le plus judicieux.
